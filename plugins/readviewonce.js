@@ -32,6 +32,6 @@ conn.reply(m.chat, `*❌ No es un mensaje de imagen, video o audio ViewOnce.*`, 
 }}
 
 handler.command = /^(readviewonce|read|viewonce|ver)$/i
-handler.register = true
+
 
 export default handler

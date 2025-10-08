@@ -158,7 +158,7 @@ console.log(error)
 delete tempStorage[m.sender]
 }}
 handler.command = /^(play|play2)$/i
-handler.register = true 
+ 
 export default handler
 
 async function reportError(e, conn, m, gata) {

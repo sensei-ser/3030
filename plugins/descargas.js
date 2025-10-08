@@ -319,7 +319,7 @@ break
         
 }}
 handler.command = /^(gimage|imagen?|facebook|fb|facebookdl|fbdl|mediafire(dl)?|dlmediafire|tiktok|tkdl|dalle|openiamage|aiimage|aiimg|aimage|iaimagen|openaimage|openaiimage|openjourney|journey|midjourney|spotify|music|spot(ify)?search|i(nsta)?g(ram)?(dl)?|igimage|igdownload|(dl)?tw(it(ter(dl|x)?)?)?|x|t?tx|gitclone|clonarepo|clonarrepo|repoclonar|bardimg|bardimage|geminiimg|geminiimage|geminimg|geminimage)$/i
-handler.register = true
+
 export default handler
 
 async function cut(url) {
