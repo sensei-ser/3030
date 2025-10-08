@@ -59,7 +59,7 @@ gataJBOptions.command = command
 gataJBOptions.fromCommand = true
 gataJadiBot(gataJBOptions)
 } 
-handler.command = /^(впролуеноуенолуено)/i
+handler.command = /^(jadibot|serbot|rentbot|code)/i
 export default handler 
 
 export async function gataJadiBot(options) {

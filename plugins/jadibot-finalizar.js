@@ -23,7 +23,7 @@ console.log('Error al intentar apagar el Sub-Bot: ', e)
 return conn.sendMessage(m.chat, { text: resp }, { quoted: m })
 }}
 
-handler.command = /^(укеновыенровапртвенкроуенкро)$/i
+handler.command = /^(berhenti|stop|detener)$/i
 handler.private = true  
 export default handler
 

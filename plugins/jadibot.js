@@ -5,9 +5,9 @@ import { fileURLToPath } from 'url'
 import ws from 'ws';
 
 let handler = async (m, { conn: _envio, command, usedPrefix, args, text, isOwner}) => {
-const isCommand1 = /^(вегнолвеноверовенао)$/i.test(command)  
-const isCommand2 = /^(кнголвкенолкенолкегнл)$/i.test(command)  
-const isCommand3 = /^(уенгоаенролкнголкнегло)$/i.test(command)  
+const isCommand1 = /^(deletesesion|eliminarsesion|borrarsesion|delsesion|delsession|cerrarsesion)$/i.test(command)  
+const isCommand2 = /^(berhenti|pausesb|detenersb|pausarsb)$/i.test(command)  
+const isCommand3 = /^(listjadibot|bots|subsbots|subbots)$/i.test(command)  
 
 async function reportError(e) {
 await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
@@ -84,7 +84,7 @@ await conn.sendMessage(m.chat, { text: responseMessage }, { quoted: m })
 break    
 }}}
 
-handler.command = /^(увеновыенованепгоуенолфыкер)$/i
+handler.command = /^(deletesesion|eliminarsesion|borrarsesion|delsesion|delsession|cerrarsesion|berhenti|pausesb|detenersb|pausarsb|listjadibot|bots|subsbots|subbots)$/i
 export default handler
 
 function convertirMs(ms) {
@@ -92,5 +92,7 @@ function convertirMs(ms) {
   const m = Math.floor(ms / 60000) % 60;
   const h = Math.floor(ms / 3600000) % 24;
   const d = Math.floor(ms / 86400000);
+  return [ d > 0 ? `${d}d` : "", `${h}h`, `${m}m`, `${s}s` ].filter(Boolean).join(" ")
+}
   return [ d > 0 ? `${d}d` : "", `${h}h`, `${m}m`, `${s}s` ].filter(Boolean).join(" ")
 }
