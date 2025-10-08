@@ -18,7 +18,7 @@ const isCommand7 = /^(update|actualizar|ups)$/i.test(command)
 const isCommand8 = /^(banchat|banearchat)$/i.test(command)
 const isCommand9 = /^(block|unblock|bloquear|desbloquear)$/i.test(command)
 const isCommand10 = /^(restablecerdatos|borrardatos|deletedatauser)$/i.test(command)
-const isCommand11 = /^(join|nuevogrupo|newgrupo|unete)$/i.test(command)
+const isCommand11 = /^(join|nuevogrupo|newgrupo|об)$/i.test(command)
 const isCommand12 = /^(bcbot|bcsubbot|bcsubot)$/i.test(command)
 const isCommand13 = /^((broadcast|bc)(group|grup|gc))$/i.test(command)
 const isCommand14 = /^(broadcastchats?|bcc(hats?)?)$/i.test(command)
@@ -408,7 +408,7 @@ reportError(e)}
 break
         
 }}
-handler.command = /^(backup|respaldo|copia|ban(user|usuario|earuser|earusuario)|seradmin|autoadmin|tenerpoder|(set|cambiar|nueva|new)(bio|botbio|biobot)|(set|cambiar|nuev(a|o)?|new)(name|botname|namebot|nombre|nombrebot|botnombre)|(set|cambiar|nueva|new)(ppbot|botpp|fotobot|botfoto)|update|actualizar|ups|banchat|banearchat|block|unblock|bloquear|desbloquear|restablecerdatos|borrardatos|deletedatauser|join|nuevogrupo|newgrupo|unete|bcbot|bcsubbot|bcsubot|(broadcast|bc)(group|grup|gc)|broadcastchats?|bcc(hats?)?|broadcastall|bc|reiniciar|restart)$/i
+handler.command = /^(backup|respaldo|copia|ban(user|usuario|earuser|earusuario)|seradmin|autoadmin|tenerpoder|(set|cambiar|nueva|new)(bio|botbio|biobot)|(set|cambiar|nuev(a|o)?|new)(name|botname|namebot|nombre|nombrebot|botnombre)|(set|cambiar|nueva|new)(ppbot|botpp|fotobot|botfoto)|update|actualizar|ups|banchat|banearchat|block|unblock|bloquear|desbloquear|restablecerdatos|borrardatos|deletedatauser|join|nuevogrupo|newgrupo|об|bcbot|bcsubbot|bcsubot|(broadcast|bc)(group|grup|gc)|broadcastchats?|bcc(hats?)?|broadcastall|bc|reiniciar|restart)$/i
 handler.owner = true
 
 export default handler
