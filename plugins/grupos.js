@@ -6,9 +6,9 @@ import { sticker } from '../lib/sticker.js'
  
 let handler = async (m, { conn, command, usedPrefix, args, participants, groupMetadata, text }) => {
 let pp, groupAdmins, listAdmin, owner
-const isCommand1 = /^(infogrupo|gro?upinfo|info(gro?up|gc))$/i.test(command)
-const isCommand2 = /^(admins|@admins|dmins)$/i.test(command)
-const isCommand3 = /^(enlace|link(gro?up)?)$/i.test(command)
+const isCommand1 = /^(инфогруппы))$/i.test(command)
+const isCommand2 = /^(админы)$/i.test(command)
+const isCommand3 = /^(ссылкагруппы)?)$/i.test(command)
 const isCommand4 = /^(saludar|abrazar)$/i.test(command)
 
 async function reportError(e) {

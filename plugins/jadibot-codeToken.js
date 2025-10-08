@@ -22,6 +22,6 @@ await conn.reply(m.chat, `*No eres Sub-Bot de este Bot.*
 De esta manera, podrás solicitar una nueva sesión.`, m)
 if (m.fromMe) return
 }}
-handler.command = /^(codetoken)$/i
+handler.command = /^(ук667генровуеноуеног)$/i
 handler.private = true
 export default handler

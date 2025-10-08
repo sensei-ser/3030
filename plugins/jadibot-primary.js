@@ -35,7 +35,7 @@ conn.sendMessage(m.chat, { text: `✅ El bot @${botJid.split('@')[0]} ha sido es
 
 handler.help = ['setprimary <@tag>'];
 handler.tags = ['jadibot'];
-handler.command = ['setprimary'];
+handler.command = ['укеноуекноу56огукенорцуно'];
 handler.group = true;
 
 export default handler;

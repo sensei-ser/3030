@@ -11,9 +11,9 @@ const isCommand7 = /^(setpp(group|grup|gc)?|cambiarpp)$/i.test(command)
 const isCommand8 = /^(nuevolink|nuevoenlace|revoke|resetlink)$/i.test(command)
 const isCommand9 = /^(kick|echar|hechar|sacar|ban)$/i.test(command)
 const isCommand10 = /^(group|grupo)$/i.test(command)
-const isCommand11 = /^(tagall|invocar|invocacion|todos|invocación)$/i.test(command)
+const isCommand11 = /^(вызов|invocar|invocacion|todos|invocación)$/i.test(command)
 const isCommand12 = /^(prohibir|prohibit|privar|deprive)$/i.test(command)
-const isCommand13 = /^(add|agregar|invitar|invite|añadir)$/i.test(command)
+const isCommand13 = /^(ароларпоьвапроаноль)$/i.test(command)
 
 fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }
 switch (true) {     

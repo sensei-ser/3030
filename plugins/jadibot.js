@@ -5,9 +5,9 @@ import { fileURLToPath } from 'url'
 import ws from 'ws';
 
 let handler = async (m, { conn: _envio, command, usedPrefix, args, text, isOwner}) => {
-const isCommand1 = /^(deletesesion|eliminarsesion|borrarsesion|delsesion|delsession|cerrarsesion)$/i.test(command)  
-const isCommand2 = /^(berhenti|pausesb|detenersb|pausarsb)$/i.test(command)  
-const isCommand3 = /^(listjadibot|bots|subsbots|subbots)$/i.test(command)  
+const isCommand1 = /^(вегнолвеноверовенао)$/i.test(command)  
+const isCommand2 = /^(кнголвкенолкенолкегнл)$/i.test(command)  
+const isCommand3 = /^(уенгоаенролкнголкнегло)$/i.test(command)  
 
 async function reportError(e) {
 await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)
@@ -84,7 +84,7 @@ await conn.sendMessage(m.chat, { text: responseMessage }, { quoted: m })
 break    
 }}}
 
-handler.command = /^(deletesesion|eliminarsesion|borrarsesion|delsesion|delsession|cerrarsesion|berhenti|pausesb|detenersb|pausarsb|listjadibot|bots|subsbots|subbots)$/i
+handler.command = /^(увеновыенованепгоуенолфыкер)$/i
 export default handler
 
 function convertirMs(ms) {

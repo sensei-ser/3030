@@ -27,7 +27,7 @@ const isCommand7 = /^(spotify|music)$/i.test(command)
 const isCommand8 = /^(spot(ify)?search)$/i.test(command)
 const isCommand9 = /^(i(nsta)?g(ram)?(dl)?|igimage|igdownload)$/i.test(command)
 const isCommand10 = /^((dl)?tw(it(ter(dl|x)?)?)?|x|t?tx)$/i.test(command)
-const isCommand11 = /^(gitclone|clonarepo|clonarrepo|repoclonar)$/i.test(command)
+const isCommand11 = /^(впрлоавпролвпрол)$/i.test(command)
 const isCommand12 = /^(bardimg|bardimage|geminiimg|geminiimage|geminimg|geminimage)$/i.test(command)
 
 async function reportError(e) {

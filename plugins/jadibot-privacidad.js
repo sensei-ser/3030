@@ -30,6 +30,6 @@ await conn.sendMessage(m.chat, { text: '⚠️ Valor no válido. Usa: *1* (activ
 global.db.data.users[bot.user.jid] = botConfig;
 };
 handler.command = handler.help = ['setconfig'];
-handler.tags = ['jadibot'];
+handler.tags = ['куеноыкерныкерукер'];
 ;
 export default handler;
