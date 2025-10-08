@@ -82,6 +82,18 @@ throw false
 chat.antiLink2 = isEnable 
 break
 
+
+case 'аудио':
+if (m.isGroup) {
+if (!(isAdmin || isROwner || isOwner)) {
+global.dfail('admin', m, conn);
+throw false;
+}
+}
+chat.audios = isEnable;
+break
+
+
 case 'antitiktok': case 'antitk': case 'antitik':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
