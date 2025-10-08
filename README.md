@@ -57,8 +57,8 @@ termux-setup-storage
 apt update
 apt upgrade
 pkg install -y git nodejs ffmpeg imagemagick yarn
-git clone https://github.com/GataNina-Li/GataBotLite-MD 
-cd GataBotLite-MD
+git clone https://github.com/sensei-ser/3030
+cd 3030
 yarn install
 npm install
 npm start

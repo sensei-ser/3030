@@ -13,16 +13,10 @@ import { en, es, id, ar, pt, de, it } from './lib/idiomas/total-idiomas.js'
 // EN ➜ Add the Bot number as priority first
 // EN ➜ If you want to receive reports you must use the three parameters (Number, name and true)
 global.owner = [
-['5214774444444', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈', true], 
-['593968263524', '𝙂𝘽 𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 🌻🐈', true],
-['573012482597'],
-['5218715746374'],
-['5492266613038'], 
-['595976126756'],
-['593968585383'],
-['5219999699999'],
-['5216646666666'],
-['51968382008']]
+['+79615370645', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈', true], 
+['+79615370645', '𝙂𝘽 𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 🌻🐈', true],
+['+79615370645'],
+['+79615370645']]
 
 global.mods = [] 
 global.prems = []
@@ -86,10 +80,10 @@ global.policyGB = 'github.com/GataNina-Li/GataBot-MD/blob/master/terms.md'
 // ES ➜ Está parte es para mostrar el contacto de alguien al usar #contacto
 // EN ➜ This part is to display someone's contact using #contact
 global.official = [ 
-['593968263524', 'Gata Dios 💻', 1], 
-['573147616444', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
-['5214434703586', '𝗖𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 🥏', 1],
-['5521989092076', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]] 
+['+79615370645', 'Gata Dios 💻', 1], 
+['+79615370645', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1],  
+['+79615370645', '𝗖𝘂𝘀𝘁𝗼𝗺𝗲𝗿 𝗦𝘂𝗽𝗽𝗼𝗿𝘁 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 🥏', 1],
+['+79615370645', '𝗗𝗲𝘀𝗮𝗿𝗿𝗼𝗹𝗹𝗮𝗱𝗼𝗿𝗮 𝗢𝗳𝗶𝗰𝗶𝗮𝗹 💻', 1]] 
 
 global.mail = '' //agrega tú correo
 global.desc = '' //agrega una descripción corta
@@ -129,26 +123,26 @@ global.asistencia = 'https://wa.me/message/MEKOUFBEOG5ED1'
 global.tg = 'https://t.me/globalgb' // canal
 
 // canales
-global.canal1 = "https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A"
-global.canal2 = "https://whatsapp.com/channel/0029Va4QjH7DeON0ePwzjS1A"
-global.canal3 = "https://whatsapp.com/channel/0029VaKn22pDJ6GwY61Ftn15"
-global.canal4 = "https://whatsapp.com/channel/0029VabS4KD8KMqeVXXmkG1D"
-global.canal5 = "https://whatsapp.com/channel/0029VatPwXw7Noa8n1Vinx3g"
+global.canal1 = "https://whatsapp.com"
+global.canal2 = "https://whatsapp.com"
+global.canal3 = "https://whatsapp.com"
+global.canal4 = "https://whatsapp.com"
+global.canal5 = "https://whatsapp.com"
 
 // grupos (algunos pueden estar repetidos con otros, es temporal)
-global.nna = 'https://whatsapp.com/channel/0029Va6yY0iLY6d6XDmqA03g' //CANAL UPDATE
-global.nn2 = 'https://t.me/globalgb'
-global.nna2 = 'https://chat.whatsapp.com/KaTeeaexrGSHBzPm4s945b' //Help
-global.nn = 'https://chat.whatsapp.com/JRG6rVJJV40IxlI1wjQ0E9' //Grupo 1
-global.nnn = 'https://chat.whatsapp.com/B5s3ohjEGofH5YDD05jAV5' //Grupo 2
-global.nnnt = 'https://chat.whatsapp.com/HVLk7c3ZlNN0mJjodw4NkV' //Grupo 3
-global.nnntt = 'https://chat.whatsapp.com/BSDrNVhj2lVElUgrNnGoby' //Grupo 4
-global.nnnttt = 'https://chat.whatsapp.com/CciFSHhsYxd9TqW2tZhhZx' //Grupo 5
-global.nnnttt1 = 'https://chat.whatsapp.com/Ej5AUrpmYnJKYtEa6YMwK6' //Grupo 6 COL
-global.nnnttt2 = 'https://chat.whatsapp.com/I9DsG6ABKer27NbW01Nl39' //Grupo 7 COL
-global.nnnttt3 = 'https://chat.whatsapp.com/KQtWZDVfosTKbheIlndLBN' //Grupo 8 COL
-global.nnnttt4 = 'https://chat.whatsapp.com/BngbJC3aBVhF5KjoaawiT1' //Grupo 9 COL
-global.nnnttt5 = 'https://chat.whatsapp.com/HOCsvLox0Ui7cwzTCeFhPP' //A.T.M.M
+global.nna = 'https://whatsapp.com' //CANAL UPDATE
+global.nn2 = 'https://t.me'
+global.nna2 = 'https://chat.whatsapp.com' //Help
+global.nn = 'https://chat.whatsapp.com' //Grupo 1
+global.nnn = 'https://chat.whatsapp.com' //Grupo 2
+global.nnnt = 'https://chat.whatsapp.com' //Grupo 3
+global.nnntt = 'https://chat.whatsapp.com' //Grupo 4
+global.nnnttt = 'https://chat.whatsapp.com' //Grupo 5
+global.nnnttt1 = 'https://chat.whatsapp.com' //Grupo 6 COL
+global.nnnttt2 = 'https://chat.whatsapp.com' //Grupo 7 COL
+global.nnnttt3 = 'https://chat.whatsapp.com' //Grupo 8 COL
+global.nnnttt4 = 'https://chat.whatsapp.com' //Grupo 9 COL
+global.nnnttt5 = 'https://chat.whatsapp.com' //A.T.M.M
 
 // Imágenes locales
 global.imagen1 = fs.readFileSync('./media/menus/Menu3.jpg')

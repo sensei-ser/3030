@@ -9,7 +9,7 @@ const { generateWAMessageFromContent, prepareWAMessageMedia, proto }  = (await i
 export async function before(m, { conn, text }) {	
 
 global.canalIdGB = ["120363160031023229@newsletter", "120363169294281316@newsletter", "120363203805910750@newsletter", "120363302472386010@newsletter"]
-global.canalNombreGB = ["INFINITY-WA 💫", "GB - UPDATE 🐈", "Tips sobre GataBot 🤩", "NEW PROJECT: YartexBot-MD ✨"]
+global.canalNombreGB = ["Лилит 💫", "Лилит 🐈", "Лилит 🤩", "NEW PROJECT: YartexBot-MD ✨"]
 global.channelRD = await getRandomChannel()
 
 global.fakeChannel = { contextInfo: { mentionedJid: null, forwardingScore: 1, isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: '', newsletterName: channelRD.name }, externalAdReply: { title: wm, body: vs, mediaType: 1, renderLargerThumbnail: false, previewType: `PHOTO`, thumbnailUrl: gataImg.getRandom(), thumbnail: imagen1, sourceUrl: accountsgb }}}, { quoted: m }

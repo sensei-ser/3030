@@ -223,7 +223,7 @@ forwardingScore: 99,
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 newsletterJid: '120363169294281316@newsletter',
-newsletterName: 'GB - UPDATE 🐈'
+newsletterName: 'Лилит 🐈'
 }}}, { quoted: fkontak })
 //await conn.sendMessage(m.chat, { video: { url: vi.getRandom() }, gifPlayback: true, caption: menu, mentions: [m.sender] }, { quoted: fkontak }) 
 } catch (error) {
@@ -259,7 +259,7 @@ mentionedJid: [m.sender],
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
 newsletterJid: '120363169294281316@newsletter',
-newsletterName: "GB - UPDATE ✨",
+newsletterName: "Лилит ✨",
 serverMessageId: -1
 },
 forwardingScore: 999,
