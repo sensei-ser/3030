@@ -115,7 +115,7 @@ sourceUrl: accountsgb }}}, { quoted: fkontak })
 } else if (chat.welcome && !chat.welcome2 && (m.messageStubType == 28 || m.messageStubType == 32) && conn.user.jid != global.conn.user.jid ) { // Despedida (sub bot)
 let subject = groupMetadata.subject
 let userName = `${m.messageStubParameters[0].split`@`[0]}`
-let defaultBye = `*╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊰*\n┊ *@${userName}*\n┊ *NO FUE DIGNO(A) DE ESTAR AQUÍ!!* 🌟\n*╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊰*`;
+let defaultBye = `*╭┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊰*\n┊ *@${userName}*\n┊ *ОН НЕ БЫЛ ДОСТОИН(А) НАХОДИТЬСЯ ЗДЕСЬ!!* 🌟\n*╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈⊰*`;
 let textBye = chat.sBye ? chat.sBye.replace(/@user/g, `@${userName}`).replace(/@group/g, subject) : defaultBye
 await conn.sendMessage(m.chat, { text: textBye, 
 contextInfo:{
