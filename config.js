@@ -13,7 +13,7 @@ import { en, es, id, ar, pt, de, it } from './lib/idiomas/total-idiomas.js'
 // EN ➜ Add the Bot number as priority first
 // EN ➜ If you want to receive reports you must use the three parameters (Number, name and true)
 global.owner = [
-['+79615370645', '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈', true], 
+['+79615370645', 'Лилит𝘿 🌻🐈', true], 
 ['+79615370645', '𝙂𝘽 𝘼𝙨𝙞𝙨𝙩𝙚𝙣𝙘𝙞𝙖 🌻🐈', true],
 ['+79615370645'],
 ['+79615370645']]
@@ -73,7 +73,7 @@ global.fetch = fetch
 global.axios = axios
 global.moment = moment	
 
-global.packname = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈'
+global.packname = 'Лилит𝘿 🌻🐈'
 global.author = '𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
 global.policyGB = 'github.com/GataNina-Li/GataBot-MD/blob/master/terms.md'
 
@@ -92,10 +92,10 @@ global.country = '' //agrega tú país ejemplo: 🇪🇨
 
 global.vs = '1.4.0'
 global.vsJB = '5.0 (beta)'
-global.gt = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿'
+global.gt = 'Лилит𝘿'
 
-global.wm = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿 🌻🐈 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
-global.igfg = '𝙂𝙖𝙩𝙖𝘽𝙤𝙩𝙇𝙞𝙩𝙚-𝙈𝘿'
+global.wm = 'Лилит𝘿 🌻🐈 : 𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨'
+global.igfg = 'Лилит𝘿'
 global.nomorown = owner[0][0]
 
 global.htki = '*⭑•̩̩͙⊱•••• ☪*'
