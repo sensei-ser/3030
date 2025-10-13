@@ -116,7 +116,6 @@ break
 break
 }}
 
-handler.command = /^(infogrupo|gro?upinfo|info(gro?up|gc)|admins|@admins|dmins|enlace|link(gro?up)?|saludar|abrazar)$/i
+handler.command = /^(инфогруппы|gro?upinfo|info(gro?up|gc)|admins|ссылкагруппы|админы|enlace|link(gro?up)?|saludar|abrazar)$/i
 handler.group = true
-
 export default handler
