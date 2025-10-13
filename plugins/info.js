@@ -115,40 +115,20 @@ reportError(e)
 break
     
 case isCommand5:
-let codigo = `termux-setup-storage
-apt update
-apt upgrade
-pkg install -y git nodejs ffmpeg imagemagick yarn
-git clone https://github.com/GataNina-Li/GataBotLite-MD 
-cd GataBotLite-MD
-yarn install
-npm install
-npm start`
+let codigo = `t
+t`
 let codigo2 = `
 heroku/nodejs\n
-https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git\n
-https://github.com/clhuang/heroku-buildpack-webp-binaries.git`
+ht`
 let codigo3 = `
-git clone https://github.com/GataNina-Li/GataBotLite-MD
-cd GataBotLite-MD
-npm install
-npm update
-node .`
+git clone https://github.`
 try{	
 let termux = `*◎ T E R M U X*\n\n${codigo}`
-let replit = `*◎ R E P L I T*\n\nhttps://replit.com/github/GataNina-Li/GataBotLite-MD`
-let heroku = `*◎ H E R O K U*\n\nhttps://heroku.com/deploy?template=https://github.com/GataNina-Li/GataBotMDLite-Heroku`
+let replit = `*◎ R E P L I T*\n\nhttps://replit.MD`
+let heroku = `*◎ H E R O K U*\n\nhttps://heroku.com/deku`
 let windows = `*◎ W I N D O W S / V P S / R D P*\n
 ⎔ _Git_
-https://git-scm.com/downloads
-⎔ _NodeJS_
-https://nodejs.org/en/download
-⎔ _FFmpeg_
-https://ffmpeg.org/download.html
-⎔ _ImageMagick_
-https://imagemagick.org/script/download.php
-⎔ _Yarn_
-https://classic.yarnpkg.com/en/docs/install#windows-stable`
+`
 await conn.reply(m.chat, termux + '\n\n' + replit + '\n\n' + heroku + '\n\n' + windows, fkontak)
 } catch (e) {
 reportError(e)
