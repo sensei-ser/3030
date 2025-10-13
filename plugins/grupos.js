@@ -83,6 +83,6 @@ reportError(e)
 break
 }}
 
-handler.command = /^(инфогруппы|ссылкагруппы|админы)$/i
+handler.command = /^(ДНПЗШГНПЗШР8ЗНАПЕШОЛРХЩГПЗШНП9ГШПН)$/i
 handler.group = true
 export default handler
