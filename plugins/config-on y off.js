@@ -21,10 +21,10 @@ break
 case 'приветствие': case 'bienvenida':
 if (!m.isGroup) {
 if (!isOwner) {
-global.dfail('group',)
+global.dfail('group', m, conn)
 throw false
 }} else if (!( isOwner)) {
-global.dfail('admin',)
+global.dfail('args', m, conn)
 throw false
 }
 chat.welcome = isEnable
