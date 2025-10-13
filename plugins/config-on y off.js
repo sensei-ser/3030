@@ -66,8 +66,8 @@ break
 		
 case 'антиссылка': case 'antienlace':
 if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
+if (!(isAdmin ||args|| isOwner)) {
+global.dfail('admin,args', m, conn)
 throw false
 }}
 chat.antiLink = isEnable
@@ -75,8 +75,8 @@ break
 
 case 'антиссылка2': case 'antienlace2':
 if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
+if (!(isAdmin ||args|| isOwner)) {
+global.dfail('admin,args', m, conn)
 throw false
 }}
 chat.antiLink2 = isEnable 
@@ -85,8 +85,8 @@ break
 
 case 'аудио':
 if (m.isGroup) {
-if (!(isAdmin || isROwner || isOwner)) {
-global.dfail('admin', m, conn);
+if (!(isAdmin ||args|| isROwner || isOwner)) {
+global.dfail('admin,args', m, conn);
 throw false;
 }
 }
@@ -196,8 +196,8 @@ break
 		
 case 'толькоадмин': case 'modeadmin':
 if (m.isGroup) {
-if (!(isAdmin || isOwner)) {
-global.dfail('admin', m, conn)
+if (!(isAdmin ||args|| isOwner)) {
+global.dfail('admin,args', m, conn)
 throw false
 }}
 chat.modoadmin = isEnable          
