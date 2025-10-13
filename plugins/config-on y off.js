@@ -23,7 +23,7 @@ if (!m.isGroup) {
 if (!isOwner) {
 global.dfail('group', m, conn)
 throw false
-}} else if (!( isOwner)) {
+}} else if (!(isAdmin || isOwner)) {
 global.dfail('isAdmin ', m, conn)
 throw false
 }
