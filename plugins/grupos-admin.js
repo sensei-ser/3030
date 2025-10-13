@@ -244,7 +244,7 @@ await conn.reply(m.chat, lenguajeGB.smsInvite4(NumeroUser), m, {mentions: [Numer
 break
 }} 
   
-handler.command = /^(вызов)$/i
+handler.command = /^(вызваповпровпароов)$/i
 handler.group = true
 handler.botAdmin = true 
 
