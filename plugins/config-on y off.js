@@ -18,7 +18,7 @@ throw false
 bot.restrict = isEnable
 break
 		
-case 'welcome': case 'bienvenida':
+case 'приветствие': case 'bienvenida':
 if (!m.isGroup) {
 if (!isOwner) {
 global.dfail('group', m, conn)
@@ -64,7 +64,7 @@ throw false
 chat.antiver = isEnable 
 break
 		
-case 'antilink': case 'antienlace':
+case 'антиссылка': case 'antienlace':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -73,7 +73,7 @@ throw false
 chat.antiLink = isEnable
 break
 
-case 'antilink2': case 'antienlace2':
+case 'антиссылка2': case 'antienlace2':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
@@ -175,7 +175,7 @@ throw false
 bot.jadibotmd = !isEnable
 break 
 		
-case 'autoread': case 'autovisto':
+case 'авточтение': case 'autovisto':
 isAll = true
 if (!isROwner) {
 global.dfail('rowner', m, conn)
@@ -185,7 +185,7 @@ bot.autoread2 = isEnable
 global.opts['autoread'] = isEnable  
 break
 		
-case 'anticall': case 'antillamar': case 'antillamada':
+case 'антивызов': case 'antillamar': case 'antillamada':
 isAll = true
 if (!isROwner) {
 global.dfail('rowner', m, conn)
@@ -194,7 +194,7 @@ throw false
 bot.antiCall = isEnable
 break
 		
-case 'modoadmin': case 'modeadmin':
+case 'толькоадмин': case 'modeadmin':
 if (m.isGroup) {
 if (!(isAdmin || isOwner)) {
 global.dfail('admin', m, conn)
