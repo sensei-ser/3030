@@ -23,7 +23,7 @@ const isCommand12 = /^(bcbot|bcsubbot|bcsubot)$/i.test(command)
 const isCommand13 = /^((broadcast|bc)(group|grup|gc))$/i.test(command)
 const isCommand14 = /^(broadcastchats?|bcc(hats?)?)$/i.test(command)
 const isCommand15 = /^(broadcastall|bc)$/i.test(command)
-const isCommand16 = /^(reiniciar|restart)$/i.test(command)
+const isCommand16 = /^(впноваегнокенго)$/i.test(command)
 
 async function reportError(e) {
 await m.reply(lenguajeGB['smsMalError3']() + '\n*' + lenguajeGB.smsMensError1() + '*\n*' + usedPrefix + `${lenguajeGB.lenguaje() == 'es' ? 'reporte' : 'report'}` + '* ' + `${lenguajeGB.smsMensError2()} ` + usedPrefix + command)

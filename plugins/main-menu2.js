@@ -1,6 +1,6 @@
 let handler = async (m, { isPrems, conn }) => {
 
-let img = 'https://masterpiecer-images.s3.yandex.net/8b141c383f5611eeb12e6a2aaa288599:upscaled' 
+let img = 'https://img.freepik.com/premium-photo/young-adult-woman-with-creative-makeup-glamour_1077802-15091.jpg?semt=ais_hybrid&w=740' 
 let texto = `🌟 𝐌𝐄𝐍𝐔 🌟
 *˚₊·˚₊· ͟͟͞͞➳❥ @+${m.sender.split("@")[0]}*
 > ┆ *│* ┊▸ ✦ 
