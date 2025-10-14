@@ -14,6 +14,4 @@ handler.help = ['kick *@user*']
 handler.tags = ['group']
 handler.command = ['снести', 'expulsar'] 
 handler.group = true
-handler.botAdmin = true
-
 export default handler
