@@ -263,7 +263,7 @@ this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt
 if (!chat.isBanned && m.text.match(/(вызов)/gi)) {
 if (!db.data.chats[m.chat].audios) return;
 if (!db.data.settings[this.user.jid].audios_bot && !m.isGroup) return;
-const vn = './media/вызов.webp';
+const vn = './media/вызов.webp'
 mconn.conn.sendPresenceUpdate('recording', m.chat);
 mconn.conn.sendMessage(m.chat, {audio: {url: vn}, fileName: 'error.mp3', mimetype: 'audio/mpeg', ptt: true})}
     
