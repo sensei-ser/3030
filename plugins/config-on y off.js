@@ -9,7 +9,7 @@ let isAll = false
 let isUser = false
 switch (type) {
 		
-case 'restrict': case 'restringir':
+case 'ограничить': case 'restringir':
 isAll = true
 if (!isOwner) {
 global.dfail('owner', m, conn)
