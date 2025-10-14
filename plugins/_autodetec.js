@@ -94,7 +94,7 @@ console.error(`Error al aprobar la solicitud de @${usuario.split('@')[0]}: `, er
 
 } else if (chat.welcome && !chat.welcome2 && m.messageStubType == 27 && conn.user.jid != global.conn.user.jid) { // Bienvenida (sub bots)
 let subject = groupMetadata.subject
-let descs = groupMetadata.desc || "😻 𝗦𝘂𝗽𝗲𝗿 Лилит𝘿 😻"
+let descs = groupMetadata.desc || "😻 𝗦𝘂𝗽𝗲𝗿 Лилит 😻"
 let userName = `${m.messageStubParameters[0].split`@`[0]}`
 let defaultWelcome = `*╭┈⊰* ${subject}  *⊰┈ ✦*\n*┊✨ BIENVENIDO(A)!!*\n┊💖 @${userName}\n┊📄 *LEA LA DESCRIPCIÓN DEL GRUPO*\n*╰┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ ✦*\n${descs}\n`
 let textWel = chat.sWelcome ? chat.sWelcome.replace(/@user/g, `@${userName}`).replace(/@group/g, subject) .replace(/@desc/g, descs) : defaultWelcome
