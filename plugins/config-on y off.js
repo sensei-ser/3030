@@ -24,7 +24,7 @@ if (!isOwner) {
 global.dfail('group', m, conn)
 throw false
 }} else if (!(isAdmin ||args|| isOwner)) {
-global.dfail('args', m, conn)
+global.dfail('args, admin', m, conn)
 throw false
 }
 chat.welcome = isEnable

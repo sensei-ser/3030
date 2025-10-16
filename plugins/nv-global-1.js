@@ -238,6 +238,17 @@ this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt
 
 
 
+
+
+if (!chat.isBanned && chat.audios && m.text.match(/(ты кто)/gi)) {    
+let vn = './media/ты кто.webp'
+this.sendPresenceUpdate('recording', m.chat)   
+this.sendFile(m.chat, vn, 'error.mp3', null, m, true, {type: 'audioMessage', ptt: true})}
+
+
+
+
+
 if (!chat.isBanned && chat.audios && m.text.match(/(пошол нах)/gi)) {    
 let vn = './media/пошол нах.webp'
 this.sendPresenceUpdate('recording', m.chat)   
