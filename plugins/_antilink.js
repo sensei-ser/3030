@@ -1,6 +1,6 @@
 let linkRegex1 = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i;
 let linkRegex2 = /whatsapp.com\/channel\/([0-9A-Za-z]{20,24})/i;
-export async function before(m, { isAdmin, participants }) {
+export async function before(m, { isAdmin,  isBotAdmin, participants }) {
 if (m.isBaileys && m.fromMe)
 return !0
 if (!m.isGroup) return !1
@@ -16,7 +16,7 @@ const isGroupLink = linkRegex1.exec(m.text) || linkRegex2.exec(m.text);
 const grupo = `https://chat.whatsapp.com`
 if (isAdmin && chat.antiLink && m.text.includes(grupo)) return m.reply(`${lenguajeGB['smsAdwa']()}`)
 if (chat.antiLink && isGroupLink && !isAdmin) {
-if (isBotAdmin) {
+if(isBotAdmin)  {
 const linkThisGroup = `https://chat.whatsapp.com/${await this.groupInviteCode(m.chat)}`
 if (m.text.includes(linkThisGroup)) return m.reply(lenguajeGB['smsWaMismoEnlace']())  
 }    
